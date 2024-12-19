@@ -1,25 +1,26 @@
 ## Projeto credit card holder
 
 ### Problem:
-The total annual loans in Brazil is around R$ 5.3 trillion making this modality one of the most active in the financial sector. On this amount, the interest rate applies which represents the part of the profitability of the business. Thus, for success in this operation, it is necessary, logically, for the lender to receive faithfully the due interest and the borrowed amount. The certainty of receiving the profits and the loan amount must be ensured before the deal is closed..
+Grouping credit card holders is an essential practice for credit card companies. This strategy allows them to check which group, or cluster, the cardholder belongs to, and they may receive additional benefits when using the card, or be subject to certain restrictions depending on the group to which they belong.
 
 O agrupamento de titulares de cartões de crédito é uma prática essencial para empresas administradoras de cartão de crédito. Essa estratégia traz a possibilidade de verificar em que grupo, cluster, o titular do cartão está inserido, podendo tanto receber algumas vantagens a mais no uso do cartão, como também sofrer alguma restrição conforme o grupo a que pertença.
 
 ### Motivation:
-The need to know whether a loan will be duly received in full, with interest and adjustments, leads companies that work with lending money to look for ways to anticipate whether the borrower has the conditions and profile capable of faithfully repaying the amount borrowed. To this end, the company granting the loan needs to be aware of two fundamental issues for its security: knowing the percentage level of the borrower's risk and knowing, based on the level of this risk, whether or not to lend the negotiated amount.
+Credit Management
+A well-structured grouping system helps to optimize the credit available to the holder, allowing them to extend their credit and buy more, while at the same time having their credit restricted according to the group they may belong to.
 
-- Gestão do Crédito
+Gestão do Crédito
 Um sistema de agrupamento bem estruturado ajuda a otimizar o crédito disponível para o titular, permitindo estender seu crédito, podendo comprar mais, ao mesmo tempo em que pode ter seu crédito restrito conforme o grupo que possa estar pertencente.
 
 ### Solution:
-Using the company's own financial loan data, we will conduct an in-depth study and adaptation of this data. Several machine learning models, such as deep learning, will be trained, defining and choosing the model that best generalizes in the definition of defaulters and reveals the percentage level of risk of making a certain loan to a specific person. This will enable and support the financial loan team to make the best decision regarding the security percentage of that loan, reducing default events against the company.
+Using credit card usage data, machine learning algorithms will be used to define credit card holder classification clusters, grouping those that are similar into groups that reflect the dynamics of card usage that will reveal the level of commitment both in consumption and in the coverage of this consumption, revealing their responsibility regarding the most appropriate use in the balance between credit and debit.
 
-Através de dados de utilização do cartão de crédito será utilizado algoritmos de machine learning para definir clusters de classificação do titular do cartão de crédito, agrupando os que são semelhantes em grupos que refletem a dinâmica do uso do cartão que revelará o nível de compromisso tanto no consumo quanto na cobertura desse consumo, revelando sua responsabilidade frente ao uso mais adequado no equilíbrio entre crédito e débito.
+Através de dados de utilização do cartão de crédito, será utilizado algoritmos de machine learning para definir clusters de classificação do titular do cartão de crédito, agrupando os que são semelhantes em grupos que refletem a dinâmica do uso do cartão que revelará o nível de compromisso tanto no consumo quanto na cobertura desse consumo, revelando sua responsabilidade frente ao uso mais adequado no equilíbrio entre crédito e débito.
 
 ### Objective:
-- This project aims to create clusters defined according to the characteristics of credit card holders, grouping these holders and characterizing the clusters based on the percentage occurring in the variables used.
+- This project aims to create clusters defined according to the characteristics of credit card holders, grouping these holders and characterizing the clusters based on the occurrence of the variables used.
 
-- Esse projeto tem como objetivo criar clusters definidos conforme as características dos titulares de cartão de crédito, agrupando esses titulares e caracterizando os clusters a partir do percentual ocorrido nas variáveis de utilização do cartão de crédito.
+- Esse projeto tem como objetivo criar clusters definidos conforme as características dos titulares de cartão de crédito, agrupando esses titulares e caracterizando os clusters a partir da ocorrência das variáveis utilizadas.
 
 ### Data Origin:
 - Dataset: https://www.kaggle.com/datasets/arjunbhasin2013/ccdata
